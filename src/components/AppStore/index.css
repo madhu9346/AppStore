@@ -1,0 +1,53 @@
+.main-con {
+  text-align: center;
+  background-image: linear-gradient(to top, skyblue, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.main-head {
+  color: black;
+  font-weight: bold;
+  font-family: Bree Serif;
+  font-size: 45px;
+}
+.sub-con {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  border: 2px black solid;
+  text-align: center;
+}
+.input-of {
+  border-width: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px;
+  background-color: transparent;
+}
+.search-image {
+  height: 30px;
+  margin-top: 4px;
+  width: 30px;
+  background-color: transparent;
+  text-align: center;
+}
+.tab-con {
+  list-style-type: none;
+  margin: 5px;
+  display: flex;
+  text-align: center;
+}
+.appItem-con {
+  list-style-type: none;
+  margin: 10px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,36 @@
+.list-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+}
+.app-image {
+  height: 150px;
+  width: 150px;
+}
+.app-para {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Bree Serif;
+}
+@media (max-width: 768px) {
+  .app-image {
+    height: 70px;
+    width: 70px;
+  }
+  .list-container {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+  .app-para {
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Bree Serif;
+  }
+}
